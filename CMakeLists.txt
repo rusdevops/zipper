@@ -9,7 +9,7 @@
 set(CMAKE_LEGACY_CYGWIN_WIN32 0)
 cmake_minimum_required(VERSION 3.3)
 
-include(gate/cmake/HunterGate.cmake)
+include(cmake/HunterGate.cmake)
 HunterGate(
     URL "https://github.com/ruslo/hunter/archive/v0.19.109.tar.gz"
     SHA1 "2c416fea5f66429ffb4412ce5b8d0c6799ec44d2"
