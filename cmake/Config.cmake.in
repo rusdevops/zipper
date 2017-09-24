@@ -1,4 +1,4 @@
-include_directories(BEFORE ${CMAKE_CURRENT_SOURCE_DIR}/zipper)CKAGE_INIT@
+@PACKAGE_INIT@
 
 find_package(ZLIB CONFIG REQUIRED)
 find_package(minizip CONFIG REQUIRED)
