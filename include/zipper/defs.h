@@ -27,7 +27,7 @@ extern "C"
 
 #if (defined(_WIN32)) || (defined(_WIN64))
 #define USEWIN32IOAPI
-#include "iowin32.h"
+#include <minizip/iowin32.h>
 #endif
 }
 
